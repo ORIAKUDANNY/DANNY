@@ -275,7 +275,7 @@ def menu_s():
     elif ms == '3':
         name_crack()
     elif ms == '4':
-        os.system('python2 DANNY.py')
+        os.system('clear')
     elif ms == '5':
         lout()
     elif ms == '6':
