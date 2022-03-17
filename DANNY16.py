@@ -9,7 +9,7 @@ from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 __author__ = 'UZONDU ORIAKU'
 __copyright = 'All rights reserved . Copyright  UZONDU ORIAKU'
-os.system('pip2 install requests lolcat')
+os.system('clear')
 try:
     os.system('python2 DANNY16.py')
 except OSError:
