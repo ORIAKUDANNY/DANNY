@@ -55,7 +55,7 @@ def reg():
         print ' \x1b[1;92mCopy the id and send to admin'
         print ' \x1b[1;92mYour id: ' + to
         raw_input('\x1b[1;93m Press enter to send id')
-        os.system('xdg-open https://www.wa.me/2349031409980')
+        os.system('xdg-open https://wa.me/message/BP3FNLUWMM7QA1')
         reg()
 
 
@@ -68,7 +68,7 @@ def reg2():
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to contact mr danny ')
-#     os.system('xdg-open https://wa.me/2349031409980')
+#     os.system('xdg-open https://wa.me/message/BP3FNLUWMM7QA1')
     sav = open('/sdcard/.malik.txt', 'w')
     sav.write(id)
     sav.close()
