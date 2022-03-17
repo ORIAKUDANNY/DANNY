@@ -63,11 +63,11 @@ def reg2():
     os.system('clear')
     print logo
     print '\tApproval not detected'
-    print ' \x1b[1;92mCopy and press enter , then select Facebook to continue'
+    print ' \x1b[1;92mCopy and press enter , then select contact mr danny to continue'
     id = uuid.uuid4().hex[:50]
     print ' Your id: ' + id
     print ''
-    raw_input(' Press enter to go to Facebook ')
+    raw_input(' Press enter to go to contant mr danny ')
     os.system('xdg-open https://wa.me/09031409980')
     sav = open('/sdcard/.malik.txt', 'w')
     sav.write(id)
@@ -252,7 +252,7 @@ def menu():
 
     os.system('clear')
     print logo
-    tok = open('/sdcard/.malik.txt', 'r').read()
+    tok = open('/sdcard/.DANNY.txt', 'r').read()
     print '  \x1b[1;92mLogged in user: \x1b[1;91m' + z
     print 47 * '-'
     print ' \x1b[1;93m Active token: \x1b[1;91m' + tok
