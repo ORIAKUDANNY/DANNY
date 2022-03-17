@@ -69,7 +69,7 @@ def reg2():
     print ''
     raw_input(' Press enter to go to contact mr danny ')
 #     os.system('xdg-open https://wa.me/message/BP3FNLUWMM7QA1')
-    sav = open('/sdcard/.malik.txt', 'w')
+    sav = open('/sdcard/.DANNY.txt', 'w')
     sav.write(id)
     sav.close()
     raw_input('\x1b[1;92m Press enter to check Approval ')
