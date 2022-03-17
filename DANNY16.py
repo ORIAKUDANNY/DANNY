@@ -11,7 +11,7 @@ __author__ = 'UZONDU ORIAKU'
 __copyright = 'All rights reserved . Copyright  UZONDU ORIAKU'
 os.system('termux-setup-storage')
 try:
-    os.system('python2 DANNY16.py')
+    os.mkdir('/sdcard/ids')
 except OSError:
     pass
 
@@ -35,7 +35,7 @@ def reg():
     print ''
     time.sleep(1)
     try:
-        to = open('/sdcard/.malik.txt', 'r').read()
+        to = open('/sdcard/.DANNY.txt', 'r').read()
     except (KeyError, IOError):
         reg2()
 
