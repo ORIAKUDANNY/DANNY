@@ -55,7 +55,7 @@ def reg():
         print ' \x1b[1;92mCopy the id and send to admin'
         print ' \x1b[1;92mYour id: ' + to
         raw_input('\x1b[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/message/BP3FNLUWMM7QA1')
+        os.system('xdg-open https://www.wa.me/2349031409980')
         reg()
 
 
@@ -63,12 +63,12 @@ def reg2():
     os.system('clear')
     print logo
     print '\tApproval not detected'
-    print ' \x1b[1;92mCopy and press enter , then select contact mr danny to continue'
+    print ' \x1b[1;92mCopy and press enter ,  contact mr danny to continue'
     id = uuid.uuid4().hex[:50]
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to contact mr danny ')
-#     os.system('xdg-open https://wa.me/message/BP3FNLUWMM7QA1')
+#     os.system('xdg-open https://www.wa.me/2349031409980')
     sav = open('/sdcard/.DANNY.txt', 'w')
     sav.write(id)
     sav.close()
