@@ -288,9 +288,9 @@ def menu_s():
 
 
 def crack():
-    global toket
+    global token
     try:
-        toket = open('login.txt', 'r').read()
+        token = open('login.txt', 'r').read()
     except (KeyError, IOError):
         os.system('clear')
         print logo
